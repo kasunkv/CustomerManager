@@ -36,7 +36,7 @@ process.on('uncaughtException', function (err) {
 });
 
 //Local Connection 
-var conn = 'mongodb://localhost/customermanager';
+var conn = 'mongodb://customeradmin:admin123@ds061196.mlab.com:61196/customermanager';
 var db = new DB.startup(conn);
 
 // Routes
